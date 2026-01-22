@@ -32,8 +32,6 @@
     &nbsp;&nbsp;&nbsp;&nbsp; 10.3 [Billing & Insurance Analysis](#103-billing--insurance-analysis)  
     &nbsp;&nbsp;&nbsp;&nbsp; 10.4 [Doctor & Hospital Performance](#104-doctor--hospital-performance)  
     &nbsp;&nbsp;&nbsp;&nbsp; 10.5 [Time-Based Analysis](#105-time-based-analysis)
-11. [Author](#11-author)
-12. [License](#12-license)
 
 
 
