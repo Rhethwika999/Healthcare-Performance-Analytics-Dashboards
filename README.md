@@ -1,4 +1,4 @@
-# Healthcare Data Analysis & Reporting
+# Healthcare Data Analysis 
 
 ## 📚 Table of Contents
 
