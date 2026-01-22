@@ -6,10 +6,7 @@
 2. [Project Description](#2-project-description)  
 3. [Key Features](#3-key-features)  
 4. [Tools & Technologies](#4-tools--technologies)  
-5. [Project Folder Structure](#5-project-folder-structure)  
-6. [Installation & Setup (One Block for Python + Power BI)](#6-installation--setup)  
-7. [How to Run (For both Python EDA + Power BI)](#7-how-to-run)  
-8. [Detailed Overview of Health_Care_EDA in Python](#8-detailed-overview-of-health_care_eda-in-python)  
+5. [Detailed Overview of Health_Care_EDA in Python](#8-detailed-overview-of-health_care_eda-in-python)  
      &nbsp;&nbsp;&nbsp;&nbsp; 8.1 [Description of the Dataset](#81-description-of-the-dataset)  
      &nbsp;&nbsp;&nbsp;&nbsp; 8.2 [Data Cleaning & Preparation](#82-data-cleaning--preparation)  
        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8.2.1 [Merging All Datasets](#821-merging-all-datasets)  
@@ -20,13 +17,13 @@
        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8.2.6 [Converting Datatypes](#826-converting-datatypes)  
        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8.2.7 [Creating Derived Columns](#827-creating-derived-columns)  
        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8.2.8 [Mapping Categorical Values](#828-mapping-categorical-values)  
-9. [Exploratory Data Analysis (EDA)](#9-exploratory-data-analysis-eda)  
+6. [Exploratory Data Analysis (EDA)](#9-exploratory-data-analysis-eda)  
     &nbsp;&nbsp;&nbsp;&nbsp; 9.1 [Univariate Analysis](#91-univariate-analysis)  
     &nbsp;&nbsp;&nbsp;&nbsp; 9.2 [Bivariate Analysis](#92-bivariate-analysis)  
     &nbsp;&nbsp;&nbsp;&nbsp; 9.3 [Multivariate Analysis](#93-multivariate-analysis)  
     &nbsp;&nbsp;&nbsp;&nbsp; 9.4 [Distribution Analysis](#94-distribution-analysis)  
     &nbsp;&nbsp;&nbsp;&nbsp; 9.5 [Correlation Analysis](#95-correlation-analysis)  
-10. [Detailed Overview of HealthCare Power BI Dashboard](#10-detailed-overview-of-power-bi-dashboard)  
+7. [Detailed Overview of HealthCare Power BI Dashboard](#10-detailed-overview-of-power-bi-dashboard)  
     &nbsp;&nbsp;&nbsp;&nbsp; 10.1 [Overview Dashboard](#101-overview-dashboard)  
     &nbsp;&nbsp;&nbsp;&nbsp; 10.2 [Medical Condition & Outcome Analysis](#102-medical-condition--outcome-analysis)  
     &nbsp;&nbsp;&nbsp;&nbsp; 10.3 [Billing & Insurance Analysis](#103-billing--insurance-analysis)  
@@ -86,98 +83,8 @@ This project demonstrates how Python-based data engineering can seamlessly integ
 - 📓 Jupyter Notebook
 - 📂 CSV & Excel Files (for data storage)
 
-## 📌 5. Project Folder Structure <a name="5-project-folder-structure"></a>
 
-├── 📁 Data/ # Healthcare Excel dataset files
-
-│ └── healthcare_dataset.xlsx
-
-│
-
-├── 📁 Images/ # Project images for README or dashboards
-
-│
-
-├── 📁 Python/ # Python notebook, requirements, and scripts
-
-│ ├── HealthCare_EDA.ipynb
-
-│ └── requirements.txt
-
-│
-
-├── 📁 PowerBI/ # Power BI dashboard files
-
-│ └── HealthCare_Dashboard.pbix
-
-│
-
-├── 📄 .gitignore # Git ignore rules
-
-├── 📄 LICENSE # Project open source license
-
-├── 📄 README.md # Project overview and documentation
-
-## 📌 6. Installation & Setup (One Block for Python + Power BI) <a name="6-installation--setup"></a>
-
-#### 1️⃣ Clone the repository
-git clone [https://github.com/ChandrashekarDevarasetti/Visual-Healthcare-Insights-Python-EDA-Power-BI-Dashboards.git](https://github.com/ChandrashekarDevarasetti/Visual-Healthcare-Insights-Python-EDA-Power-BI-Dashboards)
-
-cd Visual-Healthcare-Insights-Python-EDA-Power-BI-Dashboards
-
-#### 2️⃣ Install required Python packages
-pip install -r Python/requirements.txt
-
-#### 3️⃣ Launch the Jupyter Notebook
-jupyter notebook Python/HealthCare_EDA.ipynb
-
-#### 4️⃣ Open the Power BI Dashboard manually:
-#### Navigate to the 'PowerBI' folder and open 'HealthCare_Dashboard.pbix' in Power BI Desktop
-
-
-## 📌 7. How to Run (For both Python EDA + Power BI) <a name="7-how-to-run"></a>
-
-### Run Python EDA Notebook
-
- #### 1️⃣ Install dependencies  
- &nbsp;&nbsp;&nbsp;&nbsp; Make sure you have all the necessary dependencies by running the following command:
-
- &nbsp;&nbsp;&nbsp;&nbsp; pip install -r Python/requirements.txt
-
- #### 2️⃣ Launch the Jupyter Notebook
- &nbsp;&nbsp;&nbsp;&nbsp; After installing the dependencies, open the Jupyter notebook with the following command:
- 
- &nbsp;&nbsp;&nbsp;&nbsp; jupyter notebook Python/HEALTHCARE_EDA.ipynb
-
- #### 3️⃣ In your browser, open the notebook and run all cells sequentially
- &nbsp;&nbsp;&nbsp;&nbsp; Once the notebook is open in your browser, execute all the cells to run the EDA analysis.
-
-
-### 📊 Open Power BI Dashboard
- #### 1️⃣ Install Power BI Desktop
- &nbsp;&nbsp;&nbsp;&nbsp; If you haven't already, install Power BI Desktop. You can download it from here.
-
- #### 2️⃣ Open the Power BI file
- &nbsp;&nbsp;&nbsp;&nbsp; To view the dashboards, open the Power BI file located in the PowerBI directory:
-
- &nbsp;&nbsp;&nbsp;&nbsp; PowerBI/HealthCare_Dashboard.pbix
-
- #### 3️⃣ Explore all the interactive dashboards
- &nbsp;&nbsp;&nbsp;&nbsp; Once the Power BI file is open, you can explore the following interactive dashboards:
-
-  - 📊 Overview Dashboard
-
-  - 🩺 Medical Condition & Outcome Analysis
- 
-  - 💸 Billing & Insurance Analysis
-
-  - 🧑‍⚕️ Doctor & Hospital Performance
-
- #### 4️⃣ Refresh the dataset if needed
-
- &nbsp;&nbsp;&nbsp;&nbsp; If you need to refresh the data, connect to the Excel file located under the /data/ directory.
-
-## 📌 8. Detailed Overview of HealthCare_EDA in Python <a name="8-detailed-overview-of-health_care_eda-in-python"></a>
+## 📌 5. Detailed Overview of HealthCare_EDA in Python <a name="8-detailed-overview-of-health_care_eda-in-python"></a>
 &nbsp;&nbsp;&nbsp;&nbsp; This notebook begins with a descriptive exploration of the patient and hospital datasets using summary statistics and visual analysis. It then examines patterns in patient demographics, admission types, and medical conditions to understand what factors may influence hospital stay duration. Finally, relationships between variables such as department, billing, and severity of illness are analyzed further.
 
 ### 8.1 Description of the Dataset <a name="81-description-of-the-dataset"></a>
@@ -185,7 +92,7 @@ jupyter notebook Python/HealthCare_EDA.ipynb
 
 Key variables in the dataset include medical condition (Cancer, Diabetes, Asthma, Hypertension), billing amount (non-negative real numbers), room number (integer), admission type (Elective, Emergency, Urgent), and medication (Lipitor, Aspirin, Paracetamol). The age and blood type variables are numerical, while gender and insurance provider are categorical variables. The test results vary, with categories like Inconclusive, Abnormal, Normal and NaN values.
 
-![info](Images/Healthcare_Dataset_Info.png)
+![info](Image/Healthcare_Dataset_Info.png)
 
 ### 8.2 Data Cleaning & Preparation <a name="82-data-cleaning--preparation"></a>
 &nbsp;&nbsp;&nbsp;&nbsp; Data Cleaning & Preparation is the process of identifying and fixing errors, inconsistencies, and missing values in raw data, transforming it into a structured, reliable, and analysis-ready format for further processing.
@@ -193,72 +100,72 @@ Key variables in the dataset include medical condition (Cancer, Diabetes, Asthma
 #### 8.2.1 Merging All Datasets <a name="821-merging-all-datasets"></a>
 &nbsp;&nbsp;&nbsp;&nbsp; To perform a complete analysis, we merge all four datasets using their respective key columns (**P_ID, D_ID, H_ID**). This helps consolidate **patient details, doctor information, hospital data, and medical history** into a single unified DataFrame for further exploration and visualization.
 
-![merged_df](Images/Merged_df.png)
+![merged_df](Image/Merged_df.png)
 
 #### 8.2.2 Standardizing Name Fields & Removing Duplicates in merged data <a name="822-standardizing-data"></a>
 &nbsp;&nbsp;&nbsp;&nbsp; After merging all datasets, we ensure the `Name`, `Doctor`, and `Hospital` columns are clean and consistently formatted. This helps eliminate redundancy, avoids mismatched values, and improves overall data quality for analysis and visualization.
 
-![standardizing_df](Images/Standardizing_df.png)
+![standardizing_df](Image/Standardizing_df.png)
 
 #### 8.2.3 Data Integrity Validation for Foreign Keys (P_ID, D_ID, H_ID) <a name="823-data-integrity-validation"></a>
 Identifying Mismatches and Foreign Key Issues Between P_ID, D_ID, and H_ID in Merged Data and Master Tables
 
-![Data_Integrity](Images/Data_Integrity.png)
+![Data_Integrity](Image/Data_Integrity.png)
 
 #### 8.2.4 Handling Missing Values <a name="824-handling-missing-values"></a>
 Identifing and appropriately handling missing values in the dataset to prevent incomplete analysis or errors during visualization.
 
-![Missing_Values](Images/Missing_Values.png)
+![Missing_Values](Image/Missing_Values.png)
 
 #### 8.2.5 Handling Duplicate Records <a name="825-handling-duplicates"></a>
 Identifing and appropriately handling missing values in the dataset to prevent incomplete analysis or errors during visualization.
 
-![Duplicate_Records](Images/Duplicate_Records.png)
+![Duplicate_Records](Image/Duplicate_Records.png)
 
 #### 8.2.6 Converting Data Types <a name="826-converting-datatypes"></a>
 Ensure all columns have correct data types for analysis.
 
-![Converting_Datatypes](Images/Converting_Datatypes.png)
+![Converting_Datatypes](Image/Converting_Datatypes.png)
 
 #### 8.2.7 Creating New Derived Columns <a name="827-creating-derived-columns"></a>
 Creating useful new columns like Length of Stay or Billing Category.
 
-![Derived_Columns](Images/Derived_Columns.png)
+![Derived_Columns](Image/Derived_Columns.png)
 
 #### 8.2.8 Mapping Categorical Values <a name="828-mapping-categorical-values"></a>
 Mapping or encode categorical values for better readability or later modeling.
 
-![Mapping_Categorical_Values](Images/Mapping_Categorical_Values.png)
+![Mapping_Categorical_Values](Image/Mapping_Categorical_Values.png)
 
 ### 📌 9. Exploratory Data Analysis (EDA) <a name="9-exploratory-data-analysis-eda"></a>
 Creating charts and graphs to make sense of data patterns, trends, relationships, and anomalies visually.
 
-![EDA](Images/EDA.png)
+![EDA](Image/EDA.png)
 
 #### 9.1 Univariate Analysis <a name="91-univariate-analysis"></a>
 &nbsp;&nbsp;&nbsp;&nbsp; Univariate Analysis is the simplest form of data analysis where only one variable is analyzed at a time to understand its distribution, central tendency, spread, and underlying patterns.
 
-![Univariate](Images/Univariate.png)
+![Univariate](Image/Univariate.png)
 
 #### 9.2 Bivariate Analysis <a name="92-bivariate-analysis"></a>
 &nbsp;&nbsp;&nbsp;&nbsp;  Bivariate Analysis is the **analysis of two variables simultaneously** to explore the **relationship, association, or correlation** between them and understand how one variable affects or relates to the other.
 
-![Bivariate](Images/Bivariate.png)
+![Bivariate](Image/Bivariate.png)
 
 #### 9.3 Multivariate Analysis <a name="93-multivariate-analysis"></a> 
 Multivariate Analysis is the *analysis of more than two variables simultaneously* to understand complex relationships, interactions, and combined effects among multiple variables within a dataset.
 
-![Multivariate](Images/Multivariate.png)
+![Multivariate](Image/Multivariate.png)
 
 #### 9.4 Distribution Analysis <a name="94-distribution-analysis"></a> 
 Understand data distribution patterns and proportions.
 
-![Distributions](Images/Distributions.png)
+![Distributions](Image/Distributions.png)
 
 #### 9.5 Correlation Analysis <a name="95-correlation-analysis"></a>
 *Correlation Heatmap:* Show correlation strength between multiple numeric variables
 
-![Correlation_Heatmap](Images/Correlation_Heatmap.png)
+![Correlation_Heatmap](Image/Correlation_Heatmap.png)
 
 ### 📌 10. Detailed Overview of HealthCare Power BI Dashboard <a name="10-detailed-overview-of-power-bi-dashboard"></a>
 &nbsp;&nbsp;&nbsp;&nbsp; This comprehensive Power BI Healthcare Admissions & Billing Dashboard offers end-to-end insights into patient admissions, medical conditions, doctor performance, billing trends, and time-based activity. It includes interactive KPI cards, dynamic charts, matrix visuals, and drill-through pages for detailed patient-level analysis. The dashboard empowers stakeholders to monitor hospital operations, financial performance, and clinical outcomes effectively with slicers, bookmarks, and customized timelines for rich, interactive exploration.
@@ -281,7 +188,7 @@ This dashboard provides a quick summary of hospital admissions, patient volumes,
 **🎯 Result:**
 Quickly monitor hospital activity, identify admission trends, and understand patient distribution by type and demographics at a glance.
 
-![Overview_Dashboard](Images/Overview_Dashboard.png)
+![Overview_Dashboard](Image/Overview_Dashboard.png)
 
 #### 🏥 10.2 Medical Condition & Outcome Analysis <a name="102-medical-condition--outcome-analysis"></a>
 
@@ -299,7 +206,7 @@ This dashboard highlights patient counts by medical condition and their correspo
 **🎯 Result:**
 Quickly identify which conditions are most common, how patients are performing in tests, and filter detailed patient lists for deeper analysis.
 
-![Medical_Condition](Images/Medical_Conditions_Dashboard.png)
+![Medical_Condition](Image/Medical_Conditions_Dashboard.png)
 
 #### 💵 10.3 Billing & Insurance Analysis <a name="103-billing--insurance-analysis"></a>
 
@@ -317,7 +224,7 @@ This dashboard tracks hospital billing patterns, insurance provider contribution
 **🎯 Result:**
 Easily monitor financial performance, identify top-paying insurers, and spot patterns between costs, patient stays, and conditions.
 
-![Billing_Insurance](Images/Billing_Insurance_Dashboard.png)
+![Billing_Insurance](Image/Billing_Insurance_Dashboard.png)
 
 #### 🧑‍⚕️ 10.4 Doctor & Hospital Performance <a name="104-doctor--hospital-performance"></a>
 
@@ -335,7 +242,7 @@ This dashboard evaluates doctor workload, patient outcomes, and hospital-wise ad
 **🎯 Result:**
 Identify high-performing doctors, hospital patient loads, and how test results vary by doctor and admission type.
 
-![Doctor_Hospital](Images/Doctor_Hospital_Dashboard.png)
+![Doctor_Hospital](Image/Doctor_Hospital_Dashboard.png)
 
 #### 📅 10.5 Time-Based Analysis <a name="105-time-based-analysis"></a>
 
@@ -355,10 +262,10 @@ This dashboard tracks patient admissions over time, helping spot trends and seas
 **🎯 Result:**
 Understand how admissions fluctuate over time, identify peak periods, and drill down to patient records on specific dates for deeper analysis.
 
-![Time_Based_Yearly](Images/Time_Based_Dashboard_Yearly.png)
+![Time_Based_Yearly](Image/Time_Based_Dashboard_Yearly.png)
 
-![Time_Based_Monthly](Images/Time_Based_Dashboard_Monthly.png)
+![Time_Based_Monthly](Image/Time_Based_Dashboard_Monthly.png)
 
-![Time_Based_Daily](Images/Time_Based_Dashboard_Daily.png)
+![Time_Based_Daily](Image/Time_Based_Dashboard_Daily.png)
 
-![Patient_Details_Drillthorugh](Images/Patient_Details_Drilltrough.png)
+![Patient_Details_Drillthorugh](Image/Patient_Details_Drilltrough.png)
